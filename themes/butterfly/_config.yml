@@ -1063,9 +1063,10 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <style>#site-title { display: none; }</style>
   bottom:
     # - <script src="xxxx"></script>
-
+- <style>#site-title { display: none; }</style>
 # CDN Settings
 # Don't modify the following settings unless you know how they work
 CDN:
