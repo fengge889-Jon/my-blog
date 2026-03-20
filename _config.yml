@@ -4,7 +4,7 @@
 
 # Site
 title: 丰戈的主页
-subtitle: '神迹让我平静'
+subtitle: 丰戈的主页 '神迹让我平静'
 description: '丰戈的个人博客'
 keywords: 丰戈, 博客, 思考
 author: 丰戈
@@ -13,8 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://my-blog-1mc.pages.devpermalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -97,7 +96,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: one-paper
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7098e36ef24481c7cc9e6f007638424fb9c03a18
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
