@@ -1,0 +1,16 @@
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about
+
+author:
+  name: 丰戈
+  intro: 神迹让我平静
+
+highlight:
+  enable: true
+  line_number: true
+
+darkmode: true
