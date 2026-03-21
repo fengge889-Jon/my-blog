@@ -1,0 +1,13 @@
+@echo off
+cd /d C:\Users\OMEN\Desktop\my-blog
+echo Removing stale lock if exists...
+del /f /q .git\index.lock 2>nul
+
+echo Adding all files...
+git add .
+echo Committing...
+git commit -m "update blog source"
+echo Pushing...
+git push origin main
+echo Done!
+pause
