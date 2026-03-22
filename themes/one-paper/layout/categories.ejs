@@ -1,0 +1,16 @@
+﻿<% 
+  const categories = site.categories;
+%>
+<div class="categories-container">
+  <h1>Categories</h1>
+  <% if (categories.length > 0) { %>
+    <% categories.forEach(category => { %>
+      <div class="category-item" style="margin: 10px 0;">
+        <a href="<%= config.root %><%= category.path %>"><%= category.name %></a>
+        <span style="margin-left: 10px;">(<%= category.length %>)</span>
+      </div>
+    <% }) %>
+  <% } else { %>
+    <p>No categories yet.</p>
+  <% } %>
+</div>
