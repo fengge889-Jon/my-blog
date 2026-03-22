@@ -97,6 +97,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: one-paper
 
+# Menu
+menu:
+  首页: /
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  邮箱: /about
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
